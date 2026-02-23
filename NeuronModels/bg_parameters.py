@@ -2,7 +2,6 @@ from neuron import h
 
 
 # CELL MODELS -> Not currently used
-
 class CellModel:
     """Base class for all cell types"""
     def __init__(self, name):
@@ -140,7 +139,6 @@ class STN(CellModel):
 
 
 # SYNAPSE PARAMETERS
-
 SYNAPSE_PARAMS = {
     'FSN_MSN_D1': {'U': 0.29, 'tau_rec': 902, 'tau_facil': 53, 'tau_inact': 11, 'e': -74, 'gmax': 0.006, 'delay': 1.7},
     'FSN_MSN_D2': {'U': 0.29, 'tau_rec': 902, 'tau_facil': 53, 'tau_inact': 11, 'e': -74, 'gmax': 0.006, 'delay': 1.7},

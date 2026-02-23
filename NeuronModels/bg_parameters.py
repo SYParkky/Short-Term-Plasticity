@@ -1,8 +1,7 @@
 from neuron import h
 
-# ============================================
-# CELL MODELS -> Not currently used(Neuron Models)
-# ============================================
+
+# CELL MODELS -> Not currently used
 
 class CellModel:
     """Base class for all cell types"""
@@ -139,9 +138,8 @@ class STN(CellModel):
         self.cell.I_ext = 5
 
 
-# ============================================
+
 # SYNAPSE PARAMETERS
-# ============================================
 
 SYNAPSE_PARAMS = {
     'FSN_MSN_D1': {'U': 0.29, 'tau_rec': 902, 'tau_facil': 53, 'tau_inact': 11, 'e': -74, 'gmax': 0.006, 'delay': 1.7},

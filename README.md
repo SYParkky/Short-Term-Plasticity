@@ -20,9 +20,7 @@ This repository implements computational models of short-term plasticity (STP) t
 
 - **Paired-Pulse Ratio (PPR) Testing**: Quantifies short-term plasticity by measuring the ratio of synaptic responses to two closely spaced stimuli
 - **Frequency Response Analysis**: Tests synaptic dynamics across multiple stimulation frequencies (1-100 Hz)
-- **Resource Dynamics Visualization**: Tracks vesicle release probability (u), available resources (x), and their product (u×x) over time
-- **Biologically Calibrated Parameters**: Synaptic parameters (U, τ_rec, τ_facil) derived from experimental literature
-
+  
 ## Installation
 
 ### Requirements
@@ -100,12 +98,6 @@ python run_freq.py
 | MSN_D2 → SNr | Facilitating | 1.149 | 1.4 ± 0.1 | [Dvorzhak et al.](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0082191&utm_source=chatgpt.com) |
 | GPe → SNr | Depressing | 0.754 | 0.40 ± 0.06 | [Atherton et al., J Neurosci](https://pubmed.ncbi.nlm.nih.gov/23616523/) |
 | STN → SNr | Depressing | 0.673 | 0.7-0.9 | [Ding et al. 2013](https://pubmed.ncbi.nlm.nih.gov/23486958/) |
-
-### Key Findings
-
-- **Inhibitory pathways** (FSN → MSN, GPe → SNr, STN → SNr) show synaptic depression, acting as high-pass filters that attenuate sustained input
-- **MSN → SNr pathways** exhibit facilitation, enhancing responses during bursts of activity
-- Frequency response curves reveal pathway-specific filtering properties that shape basal ganglia circuit dynamics
 
 
 
